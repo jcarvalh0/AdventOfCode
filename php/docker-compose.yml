@@ -1,0 +1,14 @@
+version: '3.9'
+
+x-php-8.2: &php82
+  build:
+    context: ./build/php82
+    dockerfile: Dockerfile
+  image: php82
+  container_name: php82
+  volumes:
+    - .:/app
+
+services:
+  php:
+    <<: *php82

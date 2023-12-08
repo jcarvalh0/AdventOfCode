@@ -1,0 +1,17 @@
+{
+    "name": "jcarvalho/adventofcode",
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jcarvalho\\AdventOfCode\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jcarvalh0"
+        }
+    ],
+    "require": {}
+}
